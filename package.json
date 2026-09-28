@@ -1,0 +1,20 @@
+{
+  "name": "h3-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --test src/*.test.ts"
+  },
+  "dependencies": {
+    "h3-js": "^4.5.0",
+    "maplibre-gl": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
